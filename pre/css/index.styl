@@ -1,0 +1,64 @@
+$greyD0 = #111
+$greyD1 = #444
+$greyD2 = #555
+$greyL1 = #f3f3f3
+$greyL0 = #f8f8f8
+
+borderBox()
+	-webkit-box-sizing border-box
+	-moz-box-sizing border-box
+	-ms-box-sizing border-box
+	-o-box-sizing border-box
+	box-sizing border-box
+
+body
+	background $greyL0
+	font-family 'Helvetica Neue',Helvetica,Arial,Verdana,sans-serif
+	color $greyD0
+p, li
+	font-weight 300
+strong
+	font-weight 500
+a
+	&:link, &:visited
+		color $greyD1
+	&:hover
+		color $greyD2
+	&:active
+		color $greyD1
+
+#wrapper
+	position relative
+	width 800px
+	margin 0 auto
+	header, section, footer
+		background $greyL1
+		padding 20px
+		margin-top 10px
+		borderBox()
+	header h1
+			font-size 32px
+			text-align center
+			font-family
+	section
+		h2
+			font-size 20px
+			font-weight 500
+			margin-bottom 10px
+			padding-bottom 5px
+			border-bottom 1px solid $greyD1
+		ul
+			li
+				margin-bottom 5px
+		p
+			margin-bottom 5px
+	#top
+		clear both
+		margin-bottom 10px
+		section
+			display inline-block
+			&#officers
+				width 200px
+				margin-right 10px
+			&#news
+				width unit(800 - 200 - 10, px)

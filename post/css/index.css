@@ -1,0 +1,71 @@
+body {
+  background: #f8f8f8;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  color: #111;
+}
+p,
+li {
+  font-weight: 300;
+}
+strong {
+  font-weight: 500;
+}
+a:link,
+a:visited {
+  color: #444;
+}
+a:hover {
+  color: #555;
+}
+a:active {
+  color: #444;
+}
+#wrapper {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+#wrapper header,
+#wrapper section,
+#wrapper footer {
+  background: #f3f3f3;
+  padding: 20px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#wrapper header h1 {
+  font-size: 32px;
+  text-align: center;
+font-family
+}
+#wrapper section h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #444;
+}
+#wrapper section ul li {
+  margin-bottom: 5px;
+}
+#wrapper section p {
+  margin-bottom: 5px;
+}
+#wrapper #top {
+  clear: both;
+  margin-bottom: 10px;
+}
+#wrapper #top section {
+  display: inline-block;
+}
+#wrapper #top section#officers {
+  width: 200px;
+  margin-right: 10px;
+}
+#wrapper #top section#news {
+  width: 590px;
+}
