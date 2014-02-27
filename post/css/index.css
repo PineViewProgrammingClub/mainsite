@@ -28,8 +28,8 @@ a:active {
 #wrapper header,
 #wrapper section,
 #wrapper footer {
-  background: #f3f3f3;
   padding: 20px;
+  background: #f3f3f3;
   margin-top: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -58,9 +58,11 @@ font-family
 #wrapper #top {
   clear: both;
   margin-bottom: 10px;
+  height: 200px;
 }
 #wrapper #top section {
-  display: inline-block;
+  float: left;
+  height: 190px;
 }
 #wrapper #top section#officers {
   width: 200px;
@@ -68,4 +70,9 @@ font-family
 }
 #wrapper #top section#news {
   width: 590px;
+}
+#wrapper .late {
+  margin-top: 4px;
+  font-size: 0.75em;
+  color: #444;
 }

@@ -32,8 +32,8 @@ a
 	width 800px
 	margin 0 auto
 	header, section, footer
-		background $greyL1
 		padding 20px
+		background $greyL1
 		margin-top 10px
 		borderBox()
 	header h1
@@ -55,10 +55,16 @@ a
 	#top
 		clear both
 		margin-bottom 10px
+		height 200px
 		section
-			display inline-block
+			float left
+			height @height - @margin-bottom
 			&#officers
 				width 200px
 				margin-right 10px
 			&#news
 				width unit(800 - 200 - 10, px)
+	.late
+		margin-top 4px
+		font-size .75em
+		color $greyD1
